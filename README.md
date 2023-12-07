@@ -1,0 +1,1 @@
+# eslint_config_node
