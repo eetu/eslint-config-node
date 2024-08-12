@@ -51,10 +51,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.6.0, @eslint/js@npm:^9.6.0":
+"@eslint/js@npm:9.6.0":
   version: 9.6.0
   resolution: "@eslint/js@npm:9.6.0"
   checksum: 10/b2ba6cab129630664af9539cb80116207f472a31830dd129b9e0bded2b3212a9eb5f664b9cddccc34a32c252add1f01c0cd6b91973b8ec2a274d643db356d82f
+  languageName: node
+  linkType: hard
+
+"@eslint/js@npm:^9.9.0":
+  version: 9.9.0
+  resolution: "@eslint/js@npm:9.9.0"
+  checksum: 10/9d6e94d0334aecaa7e5c78e654297d9b11679f56c8ec1b64db122cbecf64b5a04138617e901d0c79727d03abce8a898cce4288259435bde78460ebdab202998f
   languageName: node
   linkType: hard
 
@@ -442,7 +449,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-node@workspace:."
   dependencies:
-    "@eslint/js": "npm:^9.6.0"
+    "@eslint/js": "npm:^9.9.0"
     "@types/eslint__js": "npm:^8.42.3"
     eslint: "npm:^9.6.0"
     eslint-config-prettier: "npm:^9.1.0"
