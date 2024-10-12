@@ -15,15 +15,13 @@ export default tseslint.config(
     rules: {
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
-      "@typescript-eslint/no-unused-vars": "off",
+      "unused-imports/no-unused-vars": "off",
       "unused-imports/no-unused-imports": "error",
-      "unused-imports/no-unused-vars": [
+      "@typescript-eslint/no-unused-vars": [
         "warn",
         {
-          vars: "all",
-          varsIgnorePattern: "^_",
-          args: "after-used",
           argsIgnorePattern: "^_",
+          varsIgnorePattern: "^_",
         },
       ],
     },
